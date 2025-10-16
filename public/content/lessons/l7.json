@@ -1,0 +1,25 @@
+{
+  "id": "l7",
+  "title": "Практика MFA",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "SMS‑коды слабее, чем TOTP из приложения",
+      "answer": true,
+      "tags": ["mfa"],
+      "explanation": "SIM‑swap и перехват SMS делают их менее надёжными."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Push‑подтверждения уязвимы к спаму запросами",
+      "answer": true,
+      "tags": ["mfa"],
+      "explanation": "Fatigue‑атаки; важно не подтверждать без запроса."
+    }
+  ]
+}

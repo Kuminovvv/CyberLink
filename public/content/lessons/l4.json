@@ -1,0 +1,27 @@
+{
+  "id": "l4",
+  "title": "Опасные ссылки",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "url_check",
+      "prompt": "Это безопасная ссылка?",
+      "visibleText": "my-portal.com",
+      "href": "https://my-portal.com.login-verify.net",
+      "answer": "danger",
+      "tags": ["url"],
+      "explanation": "Ложный поддомен, настоящий домен — login-verify.net."
+    },
+    {
+      "id": "ex2",
+      "type": "url_check",
+      "prompt": "Это безопасная ссылка?",
+      "visibleText": "cabinet.gov",
+      "href": "https://cabinet.gov",
+      "answer": "ok",
+      "tags": ["url"],
+      "explanation": "Топ‑уровневый домен без подозрительных поддоменов."
+    }
+  ]
+}

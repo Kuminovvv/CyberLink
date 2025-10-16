@@ -1,0 +1,25 @@
+{
+  "id": "l3",
+  "title": "Сильные пароли",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Пароль длиной 12+ символов надёжнее короткого",
+      "answer": true,
+      "tags": ["passwords"],
+      "explanation": "Длина критична, плюс отсутствие словарных слов."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Повторное использование пароля безопасно, если сайт крупный",
+      "answer": false,
+      "tags": ["passwords"],
+      "explanation": "Компрометация одного сервиса ударит по всем остальным."
+    }
+  ]
+}

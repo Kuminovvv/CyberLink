@@ -1,0 +1,25 @@
+{
+  "id": "l5",
+  "title": "HTTPS и сертификаты",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "HTTPS шифрует трафик между браузером и сервером",
+      "answer": true,
+      "tags": ["https"],
+      "explanation": "Да, но не гарантирует добропорядочность сайта."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Отсутствие HTTPS — жёлтый флаг, особенно для ввода данных",
+      "answer": true,
+      "tags": ["https"],
+      "explanation": "Данные могут быть перехвачены или подменены."
+    }
+  ]
+}

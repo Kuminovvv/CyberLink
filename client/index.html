@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>CyberLingo (Client-only MVP)</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>CyberLingo</h1>
+      <nav class="nav">
+        <a href="#/home">Домой</a>
+        <a href="#/learn">Учиться</a>
+        <a href="#/review">Повторение</a>
+        <a href="#/profile">Профиль</a>
+        <a href="#/author">Авторинг</a>
+      </nav>
+    </header>
+    <main id="app" class="app-main" aria-live="polite"></main>
+    <footer class="app-footer">MVP — клиент без сервера. Данные в браузере.</footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
+

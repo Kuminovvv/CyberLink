@@ -1,0 +1,55 @@
+{
+  "id": "l9",
+  "title": "Безопасность паролей и аутентификация",
+  "durationMin": 7,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "single",
+      "prompt": "Какой пароль наиболее безопасен?",
+      "choices": [
+        {"id": "a", "text": "Password123!"},
+        {"id": "b", "text": "qwerty2024"},
+        {"id": "c", "text": "J7$mK#9pL@2qR"},
+        {"id": "d", "text": "mybirthday1990"}
+      ],
+      "answer": "c",
+      "tags": ["password", "security"],
+      "explanation": "Длинный пароль со случайными символами, цифрами и спецсимволами наиболее безопасен."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Использование одного и того же сложного пароля на всех сайтах безопасно",
+      "answer": false,
+      "tags": ["password"],
+      "explanation": "При утечке на одном сайте злоумышленник получит доступ ко всем аккаунтам."
+    },
+    {
+      "id": "ex3",
+      "type": "generic",
+      "layout": "multiple",
+      "prompt": "Какие методы повышают безопасность аутентификации?",
+      "choices": [
+        {"id": "a", "text": "Двухфакторная аутентификация (2FA)"},
+        {"id": "b", "text": "Менеджер паролей"},
+        {"id": "c", "text": "Запись паролей в блокнот"},
+        {"id": "d", "text": "Уникальные пароли для каждого сервиса"}
+      ],
+      "answer": ["a", "b", "d"],
+      "tags": ["password", "2fa", "auth"],
+      "explanation": "2FA, менеджеры паролей и уникальные пароли критически важны. Записи в блокнот небезопасны."
+    },
+    {
+      "id": "ex4",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "SMS-коды для 2FA так же безопасны, как аппаратные ключи",
+      "answer": false,
+      "tags": ["2fa", "mfa"],
+      "explanation": "SMS подвержены SIM-swapping атакам. Аппаратные ключи (FIDO2) более безопасны."
+    }
+  ]
+}

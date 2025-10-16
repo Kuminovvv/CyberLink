@@ -1,0 +1,26 @@
+{
+  "id": "l1",
+  "title": "Проверка ссылок",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "url_check",
+      "prompt": "Ссылка выглядит безопасной?",
+      "visibleText": "bank.example.com",
+      "href": "http://bank.example.com.security-login.ru",
+      "answer": "danger",
+      "tags": ["url", "phishing"],
+      "explanation": "Домен заканчивается на security-login.ru — это не банк."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "HTTPS всегда означает безопасный сайт",
+      "answer": false,
+      "tags": ["https"],
+      "explanation": "HTTPS шифрует трафик, но сайт может быть мошенническим."
+    }
+  ]
+}

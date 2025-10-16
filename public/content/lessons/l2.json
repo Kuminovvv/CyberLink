@@ -1,0 +1,25 @@
+{
+  "id": "l2",
+  "title": "Фишинг — распознавание писем",
+  "durationMin": 6,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Письмо с просьбой срочно подтвердить пароль — это признак фишинга",
+      "answer": true,
+      "tags": ["phishing"],
+      "explanation": "Манипуляция срочностью — классический паттерн."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Адрес отправителя support@bank.com вполне достаточен для доверия",
+      "answer": false,
+      "tags": ["phishing", "email"],
+      "explanation": "Адрес может подделываться, смотри домен, DKIM/SPF/DMARC."
+    }
+  ]
+}

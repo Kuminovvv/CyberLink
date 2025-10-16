@@ -1,0 +1,25 @@
+{
+  "id": "l6",
+  "title": "Приватность в соцсетях",
+  "durationMin": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Открытый профиль увеличивает риск социальной инженерии",
+      "answer": true,
+      "tags": ["privacy"],
+      "explanation": "Злоумышленникам проще собрать сведения о вас."
+    },
+    {
+      "id": "ex2",
+      "type": "generic",
+      "layout": "true_false",
+      "prompt": "Метки геолокации в реальном времени всегда безопасны",
+      "answer": false,
+      "tags": ["privacy"],
+      "explanation": "Это может раскрывать ваши перемещения посторонним."
+    }
+  ]
+}

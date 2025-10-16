@@ -1,0 +1,58 @@
+{
+  "tracks": [
+    {"id": "basics", "title": "Основы", "description": "Базовые навыки кибербезопасности для всех", "modules": ["intro", "phishing", "passwords"]},
+    {"id": "web", "title": "Безопасный веб", "description": "URL, HTTPS и защита в браузере", "modules": ["urls", "https"]},
+    {"id": "privacy", "title": "Приватность и MFA", "description": "Настройки приватности и двухфакторная защита", "modules": ["privacy", "mfa"]},
+    {"id": "advanced", "title": "Продвинутый уровень", "description": "Углубленное изучение техник безопасности", "modules": ["advanced_phishing", "advanced_auth"]}
+  ],
+  "modules": {
+    "intro": {"id": "intro", "title": "Введение", "units": ["u1"]},
+    "phishing": {"id": "phishing", "title": "Фишинг", "units": ["u2"]},
+    "passwords": {"id": "passwords", "title": "Пароли", "units": ["u3"]},
+    "urls": {"id": "urls", "title": "Проверка ссылок", "units": ["u4"]},
+    "https": {"id": "https", "title": "HTTPS и сертификаты", "units": ["u5"]},
+    "privacy": {"id": "privacy", "title": "Приватность", "units": ["u6"]},
+    "mfa": {"id": "mfa", "title": "Многофакторная аутентификация", "units": ["u7"]},
+    "advanced_phishing": {"id": "advanced_phishing", "title": "Продвинутый фишинг", "units": ["u8"]},
+    "advanced_auth": {"id": "advanced_auth", "title": "Продвинутая аутентификация", "units": ["u9"]}
+  },
+  "units": {
+    "u1": {"id": "u1", "title": "Первые шаги", "crown": 0, "lessons": ["l1"]},
+    "u2": {"id": "u2", "title": "Опознай фишинг", "crown": 0, "lessons": ["l2"]},
+    "u3": {"id": "u3", "title": "Сильные пароли", "crown": 0, "lessons": ["l3"]},
+    "u4": {"id": "u4", "title": "Опасные ссылки", "crown": 0, "lessons": ["l4"]},
+    "u5": {"id": "u5", "title": "Защита HTTPS", "crown": 0, "lessons": ["l5"]},
+    "u6": {"id": "u6", "title": "Настройки приватности", "crown": 0, "lessons": ["l6"]},
+    "u7": {"id": "u7", "title": "Практика MFA", "crown": 0, "lessons": ["l7"]},
+    "u8": {"id": "u8", "title": "Продвинутое распознавание фишинга", "crown": 0, "lessons": ["l8"]},
+    "u9": {"id": "u9", "title": "Безопасная аутентификация", "crown": 0, "lessons": ["l9"]}
+  },
+  "lessons": {
+    "l1": "/content/lessons/l1.json",
+    "l2": "/content/lessons/l2.json",
+    "l3": "/content/lessons/l3.json",
+    "l4": "/content/lessons/l4.json",
+    "l5": "/content/lessons/l5.json",
+    "l6": "/content/lessons/l6.json",
+    "l7": "/content/lessons/l7.json",
+    "l8": "/content/lessons/l8.json",
+    "l9": "/content/lessons/l9.json"
+  },
+  "glossary": [
+    {"id": "phishing", "term": "Фишинг", "definition": "Атака социальной инженерии для получения конфиденциальных данных через поддельные сообщения", "tags": ["email", "social"]},
+    {"id": "mfa", "term": "MFA (2FA)", "definition": "Многофакторная аутентификация - метод защиты, требующий два или более доказательства личности", "tags": ["auth", "2fa"]},
+    {"id": "https", "term": "HTTPS", "definition": "Защищенный протокол передачи данных с шифрованием TLS между браузером и сервером", "tags": ["tls", "cert"]},
+    {"id": "password_manager", "term": "Менеджер паролей", "definition": "Программа для безопасного хранения и генерации уникальных паролей", "tags": ["password", "security"]},
+    {"id": "spear_phishing", "term": "Целевой фишинг", "definition": "Персонализированная фишинговая атака на конкретного человека или организацию", "tags": ["phishing", "social"]},
+    {"id": "sql_injection", "term": "SQL-инъекция", "definition": "Атака через внедрение вредоносного SQL-кода в запросы к базе данных", "tags": ["web", "database"]},
+    {"id": "xss", "term": "XSS", "definition": "Cross-Site Scripting - внедрение вредоносных скриптов на веб-страницы", "tags": ["web", "javascript"]},
+    {"id": "vpn", "term": "VPN", "definition": "Виртуальная частная сеть для защищенного соединения через публичные сети", "tags": ["privacy", "network"]},
+    {"id": "encryption", "term": "Шифрование", "definition": "Преобразование данных в нечитаемый формат для защиты от несанкционированного доступа", "tags": ["crypto", "security"]},
+    {"id": "firewall", "term": "Firewall (Брандмауэр)", "definition": "Система контроля сетевого трафика по заданным правилам безопасности", "tags": ["network", "security"]},
+    {"id": "malware", "term": "Malware (Вредонос)", "definition": "Программное обеспечение, предназначенное для нанесения вреда системе", "tags": ["security", "threat"]},
+    {"id": "ransomware", "term": "Ransomware", "definition": "Вредонос, шифрующий файлы и требующий выкуп за их восстановление", "tags": ["malware", "threat"]},
+    {"id": "zero_day", "term": "Zero-Day", "definition": "Уязвимость, неизвестная разработчикам и не имеющая исправления", "tags": ["vulnerability", "security"]},
+    {"id": "social_engineering", "term": "Социальная инженерия", "definition": "Манипуляция людьми для получения конфиденциальной информации или доступа", "tags": ["social", "threat"]},
+    {"id": "ddos", "term": "DDoS", "definition": "Distributed Denial of Service - атака на доступность сервиса через перегрузку", "tags": ["network", "threat"]}
+  ]
+}

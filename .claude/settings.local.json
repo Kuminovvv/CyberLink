@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(pnpm dev)"
-    ],
-    "deny": [],
-    "ask": []
-  }
-}
